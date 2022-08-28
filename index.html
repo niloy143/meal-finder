@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Belly, Our Meal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-300">
+    <h1 class="text-center text-3xl sm:text-5xl font-bold font-mono my-5 sm:my-10">Find Your Meal</h1>
+    <div class="flex justify-center mb-10">
+        <input type="text" class="p-2 px-3 sm:px-4 rounded-l outline-none text-sm sm:text-base" placeholder="Search Meal Name" id="search-input"> 
+        <button class="bg-sky-400 active:bg-sky-600 text-white text-sm sm:text-base font-semibold px-3 sm:px-4 rounded-r" id="search-button">Search</button>
+    </div>
+    <p class="text-center sm:text-xl w-11/12 mx-auto mb-10 hidden" id="showing-result-for"><span id="item-found"></span></p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 w-11/12 max-w-screen-xl mx-auto" id="content-area">
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
